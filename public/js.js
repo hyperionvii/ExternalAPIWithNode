@@ -21,7 +21,7 @@ jQuery(document).ready(function($) {
           
           tempAmount = parseInt(parsed_json.current_observation.feelslike_f),
           
-          rainAmount = parseInt(parsed_json.current_observation.precip_1hr_in),
+          rainAmount = parseInt(parsed_json.current_observation.precip_today_in),
 
           humidityAm = parseInt(parsed_json.current_observation.relative_humidity),
 
