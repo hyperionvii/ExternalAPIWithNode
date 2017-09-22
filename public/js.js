@@ -64,6 +64,6 @@ function rain(rainAmount) {
 
 function humidity(humidityAm) {
   if(humidityAm > 50) {
-    $("#humidityDisplay").append("<img src='images/humid.jpg' style='width:150px; height:165px'/>");
+    $("#humidityDisplay").html("<img src='images/humid.jpg' style='width:150px; height:165px'/>");
   }
 }
