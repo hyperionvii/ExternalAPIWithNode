@@ -12,7 +12,7 @@ $("#submit").on("click", function(event) {
   jQuery(document).ready(function($) {
 
     $.ajax({
-        url : "http://api.wunderground.com/api/92f22e9a41ea4efb/geolookup/conditions/q/" + state + "/" + city + ".json",
+        url : "https://api.wunderground.com/api/92f22e9a41ea4efb/geolookup/conditions/q/" + state + "/" + city + ".json",
         dataType : "jsonp",
         success : function(parsed_json) {
           console.log('x');

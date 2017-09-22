@@ -32,8 +32,6 @@ app.use(express.static('public'))
 require("./routing/liri.js")(app);
 require("./routing/htmlRoutes.js")(app);
 
-var key = require("./data/keys.js")
-
 // ==============================================================================
 // LISTENER
 // The below code effectively "starts" our server
