@@ -11,8 +11,8 @@ jQuery(document).ready(function($) {
     var humidityAmount;
 
     $.ajax({
-        url : "https://api.wunderground.com/api/92f22e9a41ea4efb/geolookup/conditions/q/" + state + "/" + city + ".json",
-        dataType : "jsonp",
+        url: "/api/" + state + "/" + city,
+        dataType : "json",
         success : function(parsed_json) {
           console.log('x');
           Promise.all([
