@@ -1,3 +1,5 @@
-module.exports = {
-    Key: process.env.Key
-};
+{
+	"production": {
+		"Key": "process.env.Key"
+	}
+}
