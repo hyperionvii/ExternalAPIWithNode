@@ -2,6 +2,7 @@ var express = require("express");
 var fetch = require("node-fetch")
 
 var router = express.Router();
+var Key = process.env.Key
 
 var apiURL = "https://api.wunderground.com/api/" + Key + "/geolookup/conditions/q/"
 
