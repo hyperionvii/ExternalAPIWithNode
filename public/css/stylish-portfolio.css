@@ -31,7 +31,10 @@ body {
     padding: 0;
 }
 
-
+#centerForm { 
+    margin: 0px 0px 0px 55px;
+    padding: auto;
+}
 /* Custom Button Styles */
 
 .btn-dark {
